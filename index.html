@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Homemade Recipe Book</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main class="centrado">
+      <div class="flipbook" id="flipbook" aria-label="Recipe book">
+        <!-- Cover -->
+        <div class="hoja">
+          <div class="pagina frontal borde-frontal titulo external tapa-dura texto-blanco" style="background-color: #f7b267;">
+            <div class="page-content center-column">
+              <div class="page-title">
+                <h1 class="titulo">Homemade Recipe Book</h1>
+                <em class="titulo">By Carlitos in the Kitchen</em>
+              </div>
+              <div class="img-side">
+                <img src="./Img/portada_recetas.png" alt="Book cover" class="portada-img">
+              </div>
+            </div>
+          </div>
+          <div class="pagina trasero borde-frontal" style="background-color: #f4845f;">
+            <div class="paginaNumero">i</div>
+          </div>
+        </div>
+
+        <!-- Author / Index -->
+        <div class="hoja">
+          <div class="pagina frontal borde-frontal" style="background-color: #f7b267;">
+            <div class="page-content">
+              <div class="img-side">
+                <img src="./Img/autor.png" alt="Author photo" class="receta-img">
+              </div>
+              <div class="text-side">
+                <div class="paginaNumero texto-blanco">ii</div>
+                <h2 class="texto-blanco">Created by</h2>
+                <p class="texto-blanco"><strong>Carlos Mendoza Bautista</strong></p>
+                <p class="texto-blanco"><em>“From the kitchen with flavor and love”</em></p>
+              </div>
+            </div>
+          </div>
+          <div class="pagina trasero borde-trasero espejo" style="background-color: #fff8f0;">
+            <div class="paginaNumero">1</div>
+            <div class="page-content column-small">
+              <h3>Quick Index</h3>
+              <ul>
+                <li>Sandwich — p. 2-4</li>
+                <li>French Fries with Sausages and Meat — p. 5-6</li>
+                <li>Strawberries with Cream — p. 7-8</li>
+                <li>Hot Dogs — p. 9-10</li>
+                <li>Obleas — p. 11-12</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sandwich -->
+        <div class="hoja">
+          <div class="pagina frontal borde-frontal" style="background-color: #ffe5b4;">
+            <div class="paginaNumero">2</div>
+            <h2 style="color:#e76f51;">Sandwich</h2>
+            <h3>Recipe</h3>
+            <p>Sandwich, 2 slices of bread, tomato, cheese, ham, lettuce, butter, optional chips, chicken, ketchup</p>
+            <h3>Steps</h3>
+            <ol start="1">
+              <li>I am taking two slices of bread.</li>
+              <img src="./Img/sandwich_step1.png" alt="Take two slices of bread" class="receta-img">
+              <li>I am spreading some butter on the bread.</li>
+              <img src="./Img/sandwich_step2.png" alt="Spread butter" class="receta-img">
+            </ol>
+          </div>
+          <div class="pagina trasero borde-trasero espejo" style="background-color: #f7b267;">
+            <div class="paginaNumero">3</div>
+            <h3>Steps</h3>
+            <ol start="3">
+              <li>I am putting a slice of cheese on the bread.</li>
+              <img src="./Img/sandwich_step3.png" alt="Put cheese" class="receta-img">
+              <li>I am adding some ham and lettuce.</li>
+              <img src="./Img/sandwich_step4.png" alt="Add ham and lettuce" class="receta-img">
+            </ol>
+          </div>
+        </div>
+        <div class="hoja">
+          <div class="pagina frontal borde-frontal" style="background-color: #ffe5b4;">
+            <div class="paginaNumero">4</div>
+            <h3>Steps</h3>
+            <ol start="5">
+              <li>I am adding a slice of tomato.</li>
+              <img src="./Img/sandwich_step5.png" alt="Add tomato" class="receta-img">
+              <li>I am sprinkling chips and chicken.</li>
+              <img src="./Img/sandwich_step6.png" alt="Sprinkle chips and chicken" class="receta-img">
+            </ol>
+          </div>
+          <div class="pagina trasero borde-trasero espejo" style="background-color: #f7b267;">
+            <div class="paginaNumero">5</div>
+            <h3>Steps</h3>
+            <ol start="7">
+              <li>I am adding ketchup.</li>
+              <img src="./Img/sandwich_step7.png" alt="Add ketchup" class="receta-img">
+              <li>I am placing the second slice of bread on top.</li>
+              <img src="./Img/sandwich_step8.png" alt="Place bread on top" class="receta-img">
+            </ol>
+          </div>
+        </div>
+
+        <!-- French fries with sausages, meat, cheese, and quail eggs -->
+        <div class="hoja">
+          <div class="pagina frontal borde-frontal" style="background-color: #ffe5b4;">
+            <div class="paginaNumero">6</div>
+            <h2 style="color:#e76f51;">French Fries with Sausages, Meat, Cheese, and Quail Eggs</h2>
+            <h3>Recipe</h3>
+            <p>French fries with sausages, shredded meat, cheese, sauces, quail eggs</p>
+            <h3>Steps</h3>
+            <ol start="1">
+              <li>I am putting french fries in a bowl.</li>
+              <img src="./Img/fries_mix_step1.png" alt="Put fries in bowl" class="receta-img">
+              <li>I am adding sausages and quail eggs.</li>
+              <img src="./Img/fries_mix_step2.png" alt="Add sausages and quail eggs" class="receta-img">
+            </ol>
+          </div>
+          <div class="pagina trasero borde-trasero espejo" style="background-color: #f7b267;">
+            <div class="paginaNumero">7</div>
+            <h3>Steps</h3>
+            <ol start="3">
+              <li>I am adding shredded meat.</li>
+              <img src="./Img/fries_mix_step3.png" alt="Add shredded meat" class="receta-img">
+              <li>I am adding cheese and sauces.</li>
+              <img src="./Img/fries_mix_step4.png" alt="Add cheese and sauces" class="receta-img">
+            </ol>
+          </div>
+        </div>
+
+        <!-- Strawberries with cream -->
+        <div class="hoja">
+          <div class="pagina frontal borde-frontal" style="background-color: #ffe5b4;">
+            <div class="paginaNumero">8</div>
+            <h2 style="color:#e76f51;">Strawberries with Cream</h2>
+            <h3>Recipe</h3>
+            <p>Strawberries with cream, chopped strawberries, melted chocolate, condensed milk, cream milk, optional whipped cream</p>
+            <h3>Steps</h3>
+            <ol start="1">
+              <li>I am putting chopped strawberries in a cup.</li>
+              <img src="./Img/straw_step1.png" alt="Put strawberries in cup" class="receta-img">
+              <li>I am pouring cream milk over the strawberries.</li>
+              <img src="./Img/straw_step2.png" alt="Pour cream milk" class="receta-img">
+            </ol>
+          </div>
+          <div class="pagina trasero borde-trasero espejo" style="background-color: #f7b267;">
+            <div class="paginaNumero">9</div>
+            <h3>Steps</h3>
+            <ol start="3">
+              <li>I am adding condensed milk.</li>
+              <img src="./Img/straw_step3.png" alt="Add condensed milk" class="receta-img">
+              <li>I am drizzling melted chocolate.</li>
+              <img src="./Img/straw_step4.png" alt="Drizzle melted chocolate" class="receta-img">
+            </ol>
+            <h3>Optional</h3>
+            <ol start="5">
+              <li>I am adding whipped cream if I want.</li>
+              <img src="./Img/straw_step5.png" alt="Add whipped cream" class="receta-img">
+            </ol>
+          </div>
+        </div>
+
+        <!-- Hot dogs -->
+        <div class="hoja">
+          <div class="pagina frontal borde-frontal" style="background-color: #ffe5b4;">
+            <div class="paginaNumero">10</div>
+            <h2 style="color:#e76f51;">Hot Dogs</h2>
+            <h3>Recipe</h3>
+            <p>Hot dog buns, sausages, ketchup, mustard, mayonnaise, optional cheese, lettuce, tomato</p>
+            <h3>Steps</h3>
+            <ol start="1">
+              <li>I am putting a sausage in a hot dog bun.</li>
+              <img src="./Img/hotdog_step1.png" alt="Put sausage in bun" class="receta-img">
+              <li>I am adding ketchup, mustard, and mayonnaise.</li>
+              <img src="./Img/hotdog_step2.png" alt="Add sauces" class="receta-img">
+            </ol>
+          </div>
+          <div class="pagina trasero borde-trasero espejo" style="background-color: #f7b267;">
+            <div class="paginaNumero">11</div>
+            <h3>Steps</h3>
+            <ol start="3">
+              <li>I am adding cheese, lettuce, and tomato if I want.</li>
+              <img src="./Img/hotdog_step3.png" alt="Add cheese, lettuce, tomato" class="receta-img">
+            </ol>
+          </div>
+        </div>
+
+        <!-- Obleas -->
+        <div class="hoja">
+          <div class="pagina frontal borde-frontal" style="background-color: #ffe5b4;">
+            <div class="paginaNumero">12</div>
+            <h2 style="color:#e76f51;">Obleas</h2>
+            <h3>Recipe</h3>
+            <p>Obleas, arequipe, optional cheese, jam, whipped cream</p>
+            <h3>Steps</h3>
+            <ol start="1">
+              <li>I am spreading arequipe on one oblea.</li>
+              <img src="./Img/obleas_step1.png" alt="Spread arequipe" class="receta-img">
+              <li>I am adding cheese or jam if I want.</li>
+              <img src="./Img/obleas_step2.png" alt="Add cheese or jam" class="receta-img">
+            </ol>
+          </div>
+          <div class="pagina trasero borde-trasero espejo" style="background-color: #f7b267;">
+            <div class="paginaNumero">13</div>
+            <h3>Steps</h3>
+            <ol start="3">
+              <li>I am placing another oblea on top.</li>
+              <img src="./Img/obleas_step3.png" alt="Place oblea on top" class="receta-img">
+              <li>I am adding whipped cream if I want.</li>
+              <img src="./Img/obleas_step4.png" alt="Add whipped cream" class="receta-img">
+            </ol>
+          </div>
+        </div>
+        <!-- Closing -->
+        <div class="hoja">
+          <div class="pagina frontal borde-frontal" style="background-color: #e76f51;">
+            <div class="page-content center-column">
+              <div class="paginaNumero">12</div>
+            </div>
+          </div>
+          <div class="pagina trasero borde-trasero external texto-blanco espejo" style="background-color: #6b3e26; display:flex; align-items:center; justify-content:center; text-align:center;">
+            <h2 style="font-size: medium;">“Cooking is loving with every ingredient.”</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
